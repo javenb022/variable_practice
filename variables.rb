@@ -14,10 +14,14 @@ small_town = true
 smooth_roads = true
 
 local_food = "Culvers"
-town_name = "Westfield"
-town_fact = "Recently developed"
+## town_name = "Westfield"
+## town_fact = "Recently developed"
 
 puts"These are some short facts"
 puts"They are meant for quick information"
 puts"Lebanon is my hometown, Westfield is not"
 puts"Hope you all enjoyed these facts"
+
+puts:"#{town_name} is my hometown"
+
+puts"Since we are so small, #{town_fact}"
